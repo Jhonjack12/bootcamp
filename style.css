@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: red;
+    height: 70px;
+    width: 100%;
+    padding: 5px;
+    margin-right: 10px;
+    color: white;
+    position: fixed;
+}
+footer{
+    background-color: red;
+    height: 50px;
+    width: 100%;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    color: white;
+}
+table{
+        border-collapse: collapse;
+        width: 100%;
+        text-align: left;     
+        margin-right: 20%;
+}
+.h2{
+    width: 40%;
+}
+.bawah tr td{
+    padding: 1px;
+    font-size: 17px;
+    text-align: left;
+}
+.konten-kiri{
+    width: 50%;
+    height: 549px;
+    border: 2px solid black;
+    float: left;
+    margin-top: 70px;
+    box-sizing: border-box;
+    background-image: url(cb.jfif);
+    background-size: cover;
+    background-color: #87CEEB;
+    color: white;
+}
+.konten-kanan{
+    width: 49.7%;
+    height: 549px;
+    background-image: url(download.jfif);
+    border: 2px solid black;
+    float: right;
+    margin-top: 70px;
+    background-size: cover;
+}
+
+.login-box {
+    width: 300px;
+    margin: 100px auto;
+    background-color: gray;
+    opacity: 0.9;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+    color: black;
+  }
+
+.form {
+    margin-bottom: 15px;
+  }
+
+  .form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form input {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .form button {
+    width: 96%;
+    padding: 8px;
+    background-color: #8B0000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
